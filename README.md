@@ -24,7 +24,7 @@ Install [Python 3.11 for Windows](https://www.python.org/downloads/windows/) by 
 
 After the install is complete, type `python --version` in the Command Prompt to verify installation.
 
-#### Mac/Linux
+#### Mac
 
 Open a Terminal, and type: `python3.11 --version`
 
@@ -38,7 +38,7 @@ After the install is complete, type `python3.11 --version` in a Terminal to veri
 ### JupyterLab Installation
 Windows: Open the Command Prompt, and type: `pip install jupyterlab`
 
-Mac/Linux: Open a Terminal, and type: `python3.11 -m pip install jupyterlab`
+Mac: Open a Terminal, and type: `python3.11 -m pip install jupyterlab`
 
 After installation, you should now be able to open JupyterLab by typing in the Command Prompt or Terminal: `jupyter lab`
 
@@ -58,7 +58,7 @@ Then, run the script `create_python_env_windows.bat` by typing: `create_python_e
 
 If successful, you should see the output: <br>`"ATSC Python environment setup complete!"`
 
-#### Mac/Linux
+#### Mac
 Open a Terminal, and use the `cd` command to change directories to a location where you would like to keep the Python environment. If you prefer to simply create the environment under /Users/your_username on your computer, skip to the next step.
 
 In the Terminal, type: `git clone https://github.com/jordanichristian/und-atsc-python.git`
