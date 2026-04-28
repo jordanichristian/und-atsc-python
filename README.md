@@ -1,3 +1,5 @@
+<p align="center"><img width="500" alt="atsc_logo" src="https://github.com/user-attachments/assets/e1887f29-e747-48b8-89bb-077b1a042341" /></p>
+
 # Python Environment for UND ATSC courses
 
 ## Overview
