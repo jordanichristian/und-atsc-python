@@ -13,7 +13,7 @@ Before setting up the Python environment, two installations are required:
 ---
 
 ### Python Installation
-#### <u>Windows</u>
+#### Windows
 Open the Command Prompt, and type: `python --version`
 
 If the output shows `Python 3.11.x`, move on to the JupyterLab installation, otherwise, follow the steps below to install Python 3.11.
@@ -22,7 +22,7 @@ Install [Python 3.11 for Windows](https://www.python.org/downloads/windows/) by 
 
 After the install is complete, type `python --version` in the Command Prompt to verify installation.
 
-#### <u>Mac/Linux</u>
+#### Mac/Linux
 
 Open a Terminal, and type: `python3.11 --version`
 
@@ -43,11 +43,21 @@ After installation, you should now be able to open JupyterLab by typing in the C
 <br>
 
 ## Creating the UND ATSC Python Environment
-#### <u>Windows</u>
+#### Windows
+Open the Command Prompt, and use the `cd` command to change directories to a location where you would like to keep the Python environment. If you prefer to simply create the environment under \Users\your_username on your computer, skip to the next step.
 
+In the Command Prompt, type: `git clone https://github.com/jordanichristian/und-atsc-python.git`
 
-#### <u>Mac/Linux</u>
-Open a Terminal, and use the `cd` command to change directories to a location where you would like to keep the Python environment. If you were prefer to simply create the environment under /Users/your_username on your computer, skip to the next step.
+In the above command doesn't work, [download and install Git for Windows](https://gitforwindows.org/). Keep all of the default selected options during the install. After installation is complete, close the Command Prompt, open a new Command Prompt, and try the `git clone` command again in the Command Prompt.
+
+Type: `cd und-atsc-python`
+
+Then, run the script `create_python_env_windows.bat` by typing: `create_python_env_windows.bat`
+
+If successful, you should see the output: <br>`"ATSC Python environment setup complete!"`
+
+#### Mac/Linux
+Open a Terminal, and use the `cd` command to change directories to a location where you would like to keep the Python environment. If you prefer to simply create the environment under /Users/your_username on your computer, skip to the next step.
 
 In the Terminal, type: `git clone https://github.com/jordanichristian/und-atsc-python.git`
 
