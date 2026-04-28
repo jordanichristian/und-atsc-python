@@ -14,6 +14,13 @@ Before setting up the Python environment, two installations are required:
 
 ### Python Installation
 #### <u>Windows</u>
+Open the Command Prompt, and type: `python --version`
+
+If the output shows `Python 3.11.x`, move on to the JupyterLab installation, otherwise, follow the steps below to install Python 3.11.
+
+Install [Python 3.11 for Windows](https://www.python.org/downloads/windows/) by downloading the Windows installer (64-bit) under Python 3.11.9.
+
+After the install is complete, type `python --version` in the Command Prompt to verify installation.
 
 #### <u>Mac/Linux</u>
 
@@ -27,17 +34,17 @@ After the install is complete, type `python3.11 --version` in a Terminal to veri
 
 ---
 ### JupyterLab Installation
-#### <u>Windows</u>
+Windows: Open the Command Prompt, and type: `pip install jupyterlab`
 
-#### <u>Mac/Linux</u>
-Open a Terminal, and type: `python3.11 -m pip install jupyterlab`
+Mac/Linux: Open a Terminal, and type: `python3.11 -m pip install jupyterlab`
 
-After installation, you should now be able to open JupyterLab by typing in the Terminal: `jupyter lab`
+After installation, you should now be able to open JupyterLab by typing in the Command Prompt or Terminal: `jupyter lab`
 
 <br>
 
 ## Creating the UND ATSC Python Environment
 #### <u>Windows</u>
+
 
 #### <u>Mac/Linux</u>
 Open a Terminal, and use the `cd` command to change directories to a location where you would like to keep the Python environment. If you were prefer to simply create the environment under /Users/your_username on your computer, skip to the next step.
