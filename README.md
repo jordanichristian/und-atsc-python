@@ -70,3 +70,8 @@ Then, run the script `create_python_env_mac_linux.sh` by typing: `./create_pytho
 If the script doesn't run, try typing: `chmod u+x create_python_env_mac_linux.sh` then try running the script again.
 
 If successful, you should see the output: <br>`"ATSC Python environment setup complete!"`
+
+<br>
+
+## Running JupyterLab
+After Python 3.11 and JupyterLab have been installed and the UND ATSC Python environment is set up, open a Command Prompt or Terminal and type `jupyter lab`. This will open a browser tab that will allow you to work with Jupyter notebooks (.ipynb files). To set the Python environment after opening a Jupyter notebook, click the Python 3 (ipykernel) in the top left, and change it to und_atsc_kernel.
