@@ -16,9 +16,9 @@ Before setting up the Python environment, two installations are required:
 
 ### Python Installation
 #### Windows
-Open the Command Prompt, and type: `python --version`
+Open the Command Prompt, and type: `python --version` or `py --version`
 
-If the output shows `Python 3.11.x`, move on to the JupyterLab installation, otherwise, follow the steps below to install Python 3.11.
+If the output shows `Python 3.11.x` for one of the commands typed above, move on to the JupyterLab installation, otherwise, follow the steps below to install Python 3.11.
 
 Install [Python 3.11 for Windows](https://www.python.org/downloads/windows/) by downloading the Windows installer (64-bit) under Python 3.11.9.
 
@@ -39,8 +39,6 @@ After the install is complete, type `python3.11 --version` in a Terminal to veri
 Windows: Open the Command Prompt, and type: `pip install jupyterlab` or `py -m pip install jupyterlab`
 
 Mac: Open a Terminal, and type: `python3.11 -m pip install jupyterlab`
-
-After installation, you should now be able to open JupyterLab by typing in the Command Prompt or Terminal: `jupyter lab`
 
 <br>
 
@@ -74,4 +72,10 @@ If successful, you should see the output: <br>`"ATSC Python environment setup co
 <br>
 
 ## Running JupyterLab
-After Python 3.11 and JupyterLab have been installed and the UND ATSC Python environment is set up, open a Command Prompt (Windows) or Terminal (Mac) and type `jupyter lab`. This will open a browser tab that will allow you to work with Jupyter notebooks (.ipynb files). To set the Python environment after opening a Jupyter notebook, click the Python 3 (ipykernel) in the top left, and change it to und_atsc_kernel.
+After Python 3.11 and JupyterLab have been installed and the UND ATSC Python environment is set up, type the following commands (depending on operating system):
+
+Windows: open a Command Prompt and type `jupyter lab` or `py -m jupyterlab`.
+
+Mac: open a Terminal and type `jupyter lab`.
+
+This will open a browser tab that will allow you to work with Jupyter notebooks (.ipynb files). To set the Python environment after opening a Jupyter notebook, click the Python 3 (ipykernel) in the top left, and change it to und_atsc_kernel.
