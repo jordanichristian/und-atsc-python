@@ -36,7 +36,7 @@ After the install is complete, type `python3.11 --version` in a Terminal to veri
 
 ---
 ### JupyterLab Installation
-Windows: Open the Command Prompt, and type: `pip install jupyterlab`
+Windows: Open the Command Prompt, and type: `pip install jupyterlab` or `py -m pip install jupyterlab`
 
 Mac: Open a Terminal, and type: `python3.11 -m pip install jupyterlab`
 
