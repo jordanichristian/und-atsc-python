@@ -22,7 +22,7 @@ If the output shows `Python 3.11.x`, move on to the JupyterLab installation, oth
 
 Install [Python 3.11 for Windows](https://www.python.org/downloads/windows/) by downloading the Windows installer (64-bit) under Python 3.11.9.
 
-After the install is complete, type `python --version` in the Command Prompt to verify installation.
+After the install is complete, type `python --version` or `py --version` in the Command Prompt to verify installation.
 
 #### Mac
 
