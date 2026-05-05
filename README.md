@@ -74,4 +74,4 @@ If successful, you should see the output: <br>`"ATSC Python environment setup co
 <br>
 
 ## Running JupyterLab
-After Python 3.11 and JupyterLab have been installed and the UND ATSC Python environment is set up, open a Command Prompt or Terminal and type `jupyter lab`. This will open a browser tab that will allow you to work with Jupyter notebooks (.ipynb files). To set the Python environment after opening a Jupyter notebook, click the Python 3 (ipykernel) in the top left, and change it to und_atsc_kernel.
+After Python 3.11 and JupyterLab have been installed and the UND ATSC Python environment is set up, open a Command Prompt (Windows) or Terminal (Mac) and type `jupyter lab`. This will open a browser tab that will allow you to work with Jupyter notebooks (.ipynb files). To set the Python environment after opening a Jupyter notebook, click the Python 3 (ipykernel) in the top left, and change it to und_atsc_kernel.
